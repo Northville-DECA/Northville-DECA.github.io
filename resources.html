@@ -89,11 +89,23 @@
                     <h2 class="section-heading">Resources</h2>
                     <hr class="light">
                     <p class="text-faded">Enter the password below to access Northville DECA's Resource Drive!</p>
-                    <form action="demo_form.asp">   
-                        Password: <input type="text" name="usrname"><br>
-                        <input type="submit" class = "btn btn-default btn-xl sr-button"value="Submit">
+                    <script type="text/javascript">
+                        function PassWord(){
+                            if (value =="northvilledeca"){
+                                window.open('password.html');
+                            }
+                            else {
+                                alert('Incorrect Password');
+                                window.open('password.html')
+                            }
+                        }
+                    </script>
+                    <form>   
+                        Password: <input type="text"  class ="pass" name="password" value="northvilledeca"> <br>
+                        <input type="submit" class = "btn btn-default btn-xl sr-button" onClick = PassWord() value="Submit">
                         
                     </form>
+                    
                     <!--<a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>-->
                     <SCRIPT>
                     function passWord() {
