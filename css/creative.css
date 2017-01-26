@@ -11,6 +11,9 @@ body {
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
+.pass {
+  font-color: black;
+}
 hr {
   border-color: #01529A;
   border-width: 3px;

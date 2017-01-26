@@ -12,7 +12,7 @@
     <title>Resources</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -89,9 +89,10 @@
                     <h2 class="section-heading">Resources</h2>
                     <hr class="light">
                     <p class="text-faded">Enter the password below to access Northville DECA's Resource Drive!</p>
+                    
                     <script type="text/javascript">
                         function PassWord(){
-                            if (value =="northvilledeca"){
+                            if (name =="northvilledeca"){
                                 window.open('password.html');
                             }
                             else {
@@ -100,10 +101,10 @@
                             }
                         }
                     </script>
+
                     <form>   
-                        Password: <input type="text"  class ="pass" name="password" value="northvilledeca"> <br>
+                        Password: <input type="text"  class ="pass" name="password" > <br>
                         <input type="submit" class = "btn btn-default btn-xl sr-button" onClick = PassWord() value="Submit">
-                        
                     </form>
                     
                     <!--<a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>-->
